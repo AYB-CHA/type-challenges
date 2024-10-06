@@ -1,1 +1,1 @@
-export type MyExclude<T, U> = T extends U ? never : T;
+export type Exclude<T, U> = T extends U ? never : T;
